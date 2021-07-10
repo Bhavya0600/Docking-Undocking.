@@ -27,14 +27,14 @@ function setup() {
 // edge4=createSprite(200,0,1200,50);
 // edge4.visible=false;
 
-bathImg=loadAnimation("Images/bath1.png","Images/bath2.png");
-SleepImg=loadAnimation("Images/sleep.png");
-DrinkImg=loadAnimation("Images/drink1.png","Images/drink2.png");
-BrushImg=loadImage("Images/brush.png");
-EatImg=loadAnimation("Images/eat1.png","Images/eat2.png");
-GymImg=loadAnimation("Images/gym1.png","Images/gym2.png");
-MoveImg=loadAnimation("Images/move.png","Images/move1.png","Images/move.png","Images/move1.png");
-BackImg=loadImage("Images/iss.png");
+bathImg=loadAnimation("bath1.png","bath2.png");
+SleepImg=loadAnimation("sleep.png");
+DrinkImg=loadAnimation("drink1.png","drink2.png");
+BrushImg=loadImage("brush.png");
+EatImg=loadAnimation("eat1.png","eat2.png");
+GymImg=loadAnimation("gym1.png","gym2.png");
+MoveImg=loadAnimation("move.png","move1.png","move.png","move1.png");
+BackImg=loadImage("iss.png");
 
  
 astro=createSprite(300,230);
